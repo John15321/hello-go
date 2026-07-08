@@ -17,7 +17,7 @@ func NewRootCmd() *cobra.Command {
 
 	cmd := &cobra.Command{
 		Use:     "hello-go",
-		Short:   "Prints out Hello World!",
+		Short:   "Prints out Hello World!!!!",
 		Version: Version,
 		RunE: func(cmd *cobra.Command, _ []string) error {
 			return greet(cmd.OutOrStdout(), name)
