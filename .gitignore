@@ -1,7 +1,6 @@
 # Binaries
 /bin/
 /dist/
-hello-go
 
 # Test / coverage artifacts
 *.out
